@@ -1,0 +1,11 @@
+framework module TacirlerSDK {
+  umbrella header "TacirlerSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module TacirlerSDK.Swift {
+  header "TacirlerSDK-Swift.h"
+  requires objc
+}
